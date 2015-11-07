@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PartialReconfig Version="1" Minor="8">
+	<Partitions>
+		<Partition Name="system" Reconfigurable="FALSE" PromotedLocation="$PROMOTEDIR/Xcountup">
+			<Partition Name="bit_counter_ip_0/bit_counter_ip_0/USER_LOGIC_I/prconfig_i" CurrPRModule="countdown" Reconfigurable="TRUE">
+				<PRModule Name="countup" PromotedLocation="$PROMOTEDIR/Xcountup">
+				</PRModule>
+				<PRModule Name="countdown">
+				</PRModule>
+			</Partition>
+		</Partition>
+	</Partitions>
+	<Configs>
+		<Config Name="countup" State="PROMOTED" PromotedLocation="$PROMOTEDIR/Xcountup" RunType="Implementation">
+			<PRConfigInst PRInst="system" State="IMPLEMENT">
+			</PRConfigInst>
+			<PRConfigInst PRInst="bit_counter_ip_0/bit_counter_ip_0/USER_LOGIC_I/prconfig_i" PRModule="countup" State="IMPLEMENT">
+			</PRConfigInst>
+		</Config>
+		<Config Name="countdown" State="INITIAL" RunType="Implementation">
+			<PRConfigInst PRInst="system" State="IMPORT" ImportLocation="$PROMOTEDIR/Xcountup">
+			</PRConfigInst>
+			<PRConfigInst PRInst="bit_counter_ip_0/bit_counter_ip_0/USER_LOGIC_I/prconfig_i" PRModule="countdown" State="IMPLEMENT">
+			</PRConfigInst>
+		</Config>
+	</Configs>
+</PartialReconfig>
+

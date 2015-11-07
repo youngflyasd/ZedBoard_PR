@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="constrs_out" Type="Constrs" RelSrcDir="$PRUNDIR/countup/.constrs">
+    <File Path="$PRUNDIR/countup/.constrs/system.ucf">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/countup/.constrs/system_axi4lite_0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PRUNDIR/countup/.constrs/system_processing_system7_0_wrapper.ncf">
+      <FileInfo>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PRUNDIR/countup/.constrs/system.ucf"/>
+      <Option Name="ConstrsType" Val="UCF"/>
+    </Config>
+  </FileSet>
+</DARoots>

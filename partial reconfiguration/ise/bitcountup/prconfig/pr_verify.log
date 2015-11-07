@@ -1,0 +1,36 @@
+Release 14.7 - pr_verify P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Mon Oct 05 17:02:10 2015
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\pr_verify.exe -o
+D:/study/prj_ZYNQ_PR/project_1/ise/bitcountup/prconfig/pr_verify.log
+D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countdown/countdown_rout
+ed.ncd
+D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/count/count_routed.ncd
+
+Loading
+D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countdown/countdown_rout
+ed.ncd:  Mon Oct 05 16:45:38 2015
+Loading
+D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/count/count_routed.ncd: 
+Mon Oct 05 17:00:40 2015
+
+----------------------------------------
+Analyzing Designs:
+ 
+D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countdown/countdown_rout
+ed.ncd
+  D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/count/count_routed.ncd
+
+  Number of matched proxy logic bels          = 17
+  Number of matched external nets             = 19
+  Number of matched global clock nets         = 2
+  Number of matched Reconfigurable Partitions = 0
+
+Verification completed successfully!
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\pr_verify.exe
+D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countdown/countdown_rout
+ed.ncd
+D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/count/count_routed.ncd
+=> PASS

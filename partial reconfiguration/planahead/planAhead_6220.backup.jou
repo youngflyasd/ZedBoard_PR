@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Oct 15 16:29:44 2015
+# Process ID: 9304
+# Log file: D:/study/prj_ZYNQ_PR/project_1/planahead/planAhead.log
+# Journal file: D:/study/prj_ZYNQ_PR/project_1/planahead\planAhead.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\study\prj_ZYNQ_PR\project_1\planahead\planahead.ppr}
+link_design -name netlist_1
+exec promgen -b -w -p bin -data_width 32 -u 0 planahead.runs/countup/countup_bit_counter_ip_0_bit_counter_ip_0_user_logic_i_prconfig_i_countup_partial.bit -o ../bitstream/bitcountup.bin
+exec promgen -b -w -p bin -data_width 32 -u 0 planahead.runs/countdown/countdown_bit_counter_ip_0_bit_counter_ip_0_user_logic_i_prconfig_i_countdown_partial.bit -o ../bitstream/bitcountdown.bin

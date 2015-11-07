@@ -1,0 +1,1 @@
+ -p zynq -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X D:/study/prj_ZYNQ_PR/project_1/edk/

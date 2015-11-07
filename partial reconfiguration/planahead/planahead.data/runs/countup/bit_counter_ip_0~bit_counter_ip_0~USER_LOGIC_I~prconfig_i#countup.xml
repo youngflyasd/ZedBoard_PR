@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="bit_counter_ip_0~bit_counter_ip_0~USER_LOGIC_I~prconfig_i#countup" Type="Reconfig" RelSrcDir="$PSRCDIR/bit_counter_ip_0~bit_counter_ip_0~USER_LOGIC_I~prconfig_i#countup">
+    <File Path="$PSRCDIR/bit_counter_ip_0~bit_counter_ip_0~USER_LOGIC_I~prconfig_i#countup/new/prconfig.edf">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="prconfig"/>
+    </Config>
+  </FileSet>
+</DARoots>

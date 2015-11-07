@@ -1,0 +1,58 @@
+16:37:53.804 INFO  - Project 'count' created. You can now create BSPs and application projects targeting this hardware platform. 
+16:47:06.887 INFO  - FPGA configured successfully with bitstream "D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countup/download.bit" 
+16:47:21.751 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:47:21.851 INFO  - PS initialization will be done as it is not done before. 
+16:47:21.851 INFO  - Running PS initialization.... 
+16:47:22.450 INFO  - ps7_init is completed. 
+16:47:22.550 INFO  - ps7_post_config is completed. 
+16:47:22.650 INFO  - PS Initialization is complete. 
+16:49:38.516 INFO  - FPGA configured successfully with bitstream "D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countup/download.bit" 
+16:49:51.842 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:49:51.942 INFO  - PS initialization will be done as it is not done before. 
+16:49:51.942 INFO  - Running PS initialization.... 
+16:49:52.945 INFO  - ps7_init is completed. 
+16:49:53.046 INFO  - ps7_post_config is completed. 
+16:49:53.146 INFO  - PS Initialization is complete. 
+16:54:18.610 INFO  - FPGA configured successfully with bitstream "D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countup/download.bit" 
+16:54:40.493 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:54:40.593 INFO  - PS initialization will be done as it is not done before. 
+16:54:40.593 INFO  - Running PS initialization.... 
+16:54:41.162 INFO  - ps7_init is completed. 
+16:54:41.262 INFO  - ps7_post_config is completed. 
+16:54:41.362 INFO  - PS Initialization is complete. 
+16:57:40.327 INFO  - FPGA configured successfully with bitstream "D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countup/download.bit" 
+16:57:52.604 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:57:52.704 INFO  - PS initialization will be done as it is not done before. 
+16:57:52.704 INFO  - Running PS initialization.... 
+16:57:53.440 INFO  - ps7_init is completed. 
+16:57:53.540 INFO  - ps7_post_config is completed. 
+16:57:53.640 INFO  - PS Initialization is complete. 
+16:59:13.463 INFO  - FPGA configured successfully with bitstream "D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countup/download.bit" 
+16:59:22.634 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:59:22.734 INFO  - PS initialization will be done as it is not done before. 
+16:59:22.734 INFO  - Running PS initialization.... 
+16:59:23.236 INFO  - ps7_init is completed. 
+16:59:23.336 INFO  - ps7_post_config is completed. 
+16:59:23.436 INFO  - PS Initialization is complete. 
+17:00:14.547 INFO  - FPGA configured successfully with bitstream "D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countup/download.bit" 
+17:00:23.088 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:00:23.188 INFO  - PS initialization will be done as it is not done before. 
+17:00:23.188 INFO  - Running PS initialization.... 
+17:00:23.697 INFO  - ps7_init is completed. 
+17:00:23.797 INFO  - ps7_post_config is completed. 
+17:00:23.897 INFO  - PS Initialization is complete. 
+17:00:47.213 INFO  - FPGA configured successfully with bitstream "D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countup/download.bit" 
+17:00:57.862 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:00:57.963 INFO  - PS initialization will be done as it is not done before. 
+17:00:57.963 INFO  - Running PS initialization.... 
+17:00:58.505 INFO  - ps7_init is completed. 
+17:00:58.605 INFO  - ps7_post_config is completed. 
+17:00:58.705 INFO  - PS Initialization is complete. 
+17:01:46.145 INFO  - FPGA configured successfully with bitstream "D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.runs/countup/download.bit" 
+17:01:53.605 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:01:53.705 INFO  - PS initialization will be done as it is not done before. 
+17:01:53.705 INFO  - Running PS initialization.... 
+17:01:54.202 INFO  - ps7_init is completed. 
+17:01:54.302 INFO  - ps7_post_config is completed. 
+17:01:54.402 INFO  - PS Initialization is complete. 
+17:09:02.423 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

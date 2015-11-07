@@ -1,0 +1,203 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Oct 15 19:48:45 2015
+# Process ID: 6220
+# Log file: D:/study/prj_ZYNQ_PR/project_1/planahead/planAhead.log
+# Journal file: D:/study/prj_ZYNQ_PR/project_1/planahead\planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+open_project {D:\study\prj_ZYNQ_PR\project_1\planahead\planahead.ppr}
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): elapsed = 00:00:13 . Memory (MB): peak = 453.277 ; gain = 47.824
+link_design -name netlist_1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7z020clg484-1
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design system.ngc ...
+WARNING:NetListWriters:298 - No output is written to system.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus axi4lite_0_M_AWADDR<95 : 0> on block
+   system is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi4lite_0_M_ARADDR<95 : 0> on block
+   system is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file system.edif ...
+ngc2edif: Total memory usage is 64988 kilobytes
+
+Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system.edif]
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design system_processing_system7_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   system_processing_system7_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file system_processing_system7_0_wrapper.edif ...
+ngc2edif: Total memory usage is 64924 kilobytes
+
+Reading core file 'D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/sources_1/imports/implementation/system_processing_system7_0_wrapper.ngc' for (cell view 'system_processing_system7_0_wrapper', library 'system_lib', file 'system.ngc')
+Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_processing_system7_0_wrapper.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_processing_system7_0_wrapper.edif]
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design system_axi4lite_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   system_axi4lite_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_i
+   nst/m_amesg_i[65 : 0] on block system_axi4lite_0_wrapper is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_i
+   nst/s_amesg[65 : 0] on block system_axi4lite_0_wrapper is not reconstructed,
+   because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file system_axi4lite_0_wrapper.edif ...
+ngc2edif: Total memory usage is 64732 kilobytes
+
+Reading core file 'D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/sources_1/imports/implementation/system_axi4lite_0_wrapper.ngc' for (cell view 'system_axi4lite_0_wrapper', library 'system_lib', file 'system.ngc')
+Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_axi4lite_0_wrapper.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_axi4lite_0_wrapper.edif]
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design system_leds_8bits_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   system_leds_8bits_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file system_leds_8bits_wrapper.edif ...
+ngc2edif: Total memory usage is 64028 kilobytes
+
+Reading core file 'D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/sources_1/imports/implementation/system_leds_8bits_wrapper.ngc' for (cell view 'system_leds_8bits_wrapper', library 'system_lib', file 'system.ngc')
+Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_leds_8bits_wrapper.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_leds_8bits_wrapper.edif]
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design system_btns_5bits_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   system_btns_5bits_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus BTNs_5Bits/bus2ip_addr<6 : 0> on block
+   system_btns_5bits_wrapper is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file system_btns_5bits_wrapper.edif ...
+ngc2edif: Total memory usage is 63772 kilobytes
+
+Reading core file 'D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/sources_1/imports/implementation/system_btns_5bits_wrapper.ngc' for (cell view 'system_btns_5bits_wrapper', library 'system_lib', file 'system.ngc')
+Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_btns_5bits_wrapper.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_btns_5bits_wrapper.edif]
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design system_bit_counter_ip_0_wrapper.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   system_bit_counter_ip_0_wrapper.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file system_bit_counter_ip_0_wrapper.edif ...
+ngc2edif: Total memory usage is 63964 kilobytes
+
+Reading core file 'D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/sources_1/imports/implementation/system_bit_counter_ip_0_wrapper.ngc' for (cell view 'system_bit_counter_ip_0_wrapper', library 'system_lib', file 'system.ngc')
+Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_bit_counter_ip_0_wrapper.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/system_bit_counter_ip_0_wrapper.edif]
+INFO: [Netlist 29-17] Analyzing 265 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design prconfig.ngc ...
+WARNING:NetListWriters:298 - No output is written to prconfig.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file prconfig.edif ...
+ngc2edif: Total memory usage is 63132 kilobytes
+
+Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/prconfig.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-6220-PC-20150722JZAZ/ngc2edif/prconfig.edif]
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/zynq/IOStandards.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/zynq/drc.xml
+Parsing UCF File [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_axi4lite_0_wrapper.ncf]
+Finished Parsing UCF File [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_axi4lite_0_wrapper.ncf]
+Parsing UCF File [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf]
+INFO: [Constraints 18-98] IO constraint IOSTANDARD with a setting of LVCMOS33 for net processing_system7_0/PS_PORB will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:157]
+INFO: [Constraints 18-98] IO constraint DRIVE with a setting of 8 for net processing_system7_0/PS_PORB will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:157]
+INFO: [Constraints 18-98] IO constraint SLEW with a setting of slow for net processing_system7_0/PS_PORB will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:157]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc instance 'processing_system7_0_PS_PORB_IBUF' at site B5, Site location is not valid [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:157]
+INFO: [Constraints 18-98] IO constraint IOSTANDARD with a setting of LVCMOS33 for net processing_system7_0/PS_SRSTB will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:158]
+INFO: [Constraints 18-98] IO constraint DRIVE with a setting of 8 for net processing_system7_0/PS_SRSTB will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:158]
+INFO: [Constraints 18-98] IO constraint SLEW with a setting of slow for net processing_system7_0/PS_SRSTB will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:158]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc instance 'processing_system7_0_PS_SRSTB_IBUF' at site C9, Site location is not valid [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:158]
+INFO: [Constraints 18-98] IO constraint IOSTANDARD with a setting of LVCMOS33 for net processing_system7_0/PS_CLK will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:159]
+INFO: [Constraints 18-98] IO constraint DRIVE with a setting of 8 for net processing_system7_0/PS_CLK will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:159]
+INFO: [Constraints 18-98] IO constraint SLEW with a setting of slow for net processing_system7_0/PS_CLK will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:159]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc instance 'processing_system7_0_PS_CLK_IBUF' at site F7, Site location is not valid [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf:159]
+Finished Parsing UCF File [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system_processing_system7_0_wrapper.ncf]
+Parsing UCF File [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system.ucf]
+Finished Parsing UCF File [D:/study/prj_ZYNQ_PR/project_1/planahead/planahead.srcs/constrs_1/imports/implementation/system.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 265 instances were transformed.
+  FD => FD (FDCE, VCC, GND): 85 instances
+  FDC => FDC (FDCE, VCC): 12 instances
+  FDE => FDE (FDCE, GND): 74 instances
+  FDR => FDR (FDRE, VCC): 89 instances
+  IOBUF => IOBUF (OBUFT, IBUF): 5 instances
+
+Phase 0 | Netlist Checksum: bf922904
+link_design: Time (s): elapsed = 00:00:52 . Memory (MB): peak = 750.910 ; gain = 291.863
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 15 19:59:28 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

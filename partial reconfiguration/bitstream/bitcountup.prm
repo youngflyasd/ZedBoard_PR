@@ -1,0 +1,14 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -b -w -p bin -data_width 32 -u 0 planahead.runs/countup/countup_bit_counter_ip_0_bit_counter_ip_0_user_logic_i_prconfig_i_countup_partial.bit -o ../bitstream/bitcountup.bin 
+
+PROM ..\bitstream\bitcountup.prm map: Thu Oct 15 16:32:54 2015
+
+Format        Bin
+Size          128K
+PROM start    00000000
+PROM end      0001ffff
+
+        Addr1        Addr2                     Date File(s)
+     00000000     0001a64f     Oct 15 16:25:28 2015 planahead.runs/countup/countup_bit_counter_ip_0_bit_counter_ip_0_user_logic_i_prconfig_i_countup_partial.bit

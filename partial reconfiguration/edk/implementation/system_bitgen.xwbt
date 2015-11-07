@@ -1,0 +1,7 @@
+INFILE=D:\study\prj_ZYNQ_PR\project_1\edk\implementation\system.ncd
+OUTFILE=D:\study\prj_ZYNQ_PR\project_1\edk\implementation\system.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=D:\study\prj_ZYNQ_PR\project_1\edk\implementation
+LICENSE=WebPack
+USER_INFO=_

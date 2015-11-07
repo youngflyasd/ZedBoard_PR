@@ -1,0 +1,9 @@
+-batch 
+-create bit_counter_ip 
+-ver 1.00.a 
+-dir "D:\study\prj_ZYNQ_PR\project_1\edk" 
+-lang vhdl 
+-bus axi4lite s 
+-reg 2 
+-xps 
+-ise 

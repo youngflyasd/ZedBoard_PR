@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="bit_counter_ip_0~bit_counter_ip_0~USER_LOGIC_I~prconfig_i#countdown" Type="Reconfig" RelSrcDir="$PSRCDIR/bit_counter_ip_0~bit_counter_ip_0~USER_LOGIC_I~prconfig_i#countdown">
+    <Filter Type=""/>
+    <File Path="$PSRCDIR/bit_counter_ip_0~bit_counter_ip_0~USER_LOGIC_I~prconfig_i#countdown/imports/prconfig/prconfig.ngc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ise/bitcountdown/prconfig/prconfig.ngc"/>
+        <Attr Name="ImportTime" Val="1443957507"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+</DARoots>

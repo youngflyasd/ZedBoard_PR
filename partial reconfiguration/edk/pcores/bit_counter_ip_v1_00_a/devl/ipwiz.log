@@ -1,0 +1,111 @@
+Parsing XST project file successfully ...
+Analyzing HDL source files ...
+Analyzing HDL source files successfully ...
+HDL language for the peripheral (top level) design unit bit_counter_ip is vhdl
+...
+INFO:EDK:3391 - Create temporary xst project file:
+   D:\study\prj_ZYNQ_PR\project_1\edk\pcores/bit_counter_ip.prj
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
+Package <proc_common_pkg> compiled.
+Package body <proc_common_pkg> compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/family_support.vhd" in Library proc_common_v3_00_a.
+Package <family_support> compiled.
+Package body <family_support> compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/counter_f.vhd" in Library proc_common_v3_00_a.
+Entity <counter_f> compiled.
+Entity <counter_f> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/pselect_f.vhd" in Library proc_common_v3_00_a.
+Entity <pselect_f> compiled.
+Entity <pselect_f> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/ipif_pkg.vhd" in Library proc_common_v3_00_a.
+Package <ipif_pkg> compiled.
+Package body <ipif_pkg> compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/
+hdl/vhdl/address_decoder.vhd" in Library axi_lite_ipif_v1_01_a.
+Entity <address_decoder> compiled.
+Entity <address_decoder> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/
+hdl/vhdl/slave_attachment.vhd" in Library axi_lite_ipif_v1_01_a.
+Entity <slave_attachment> compiled.
+Entity <slave_attachment> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/
+hdl/vhdl/axi_lite_ipif.vhd" in Library axi_lite_ipif_v1_01_a.
+Entity <axi_lite_ipif> compiled.
+Entity <axi_lite_ipif> (Architecture <imp>) compiled.
+Compiling vhdl file
+"D:/study/prj_ZYNQ_PR/project_1/edk/pcores/bit_counter_ip_v1_00_a/hdl/vhdl/user_
+logic.vhd" in Library bit_counter_ip_v1_00_a.
+Entity <user_logic> compiled.
+Entity <user_logic> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"D:/study/prj_ZYNQ_PR/project_1/edk/pcores/bit_counter_ip_v1_00_a/hdl/vhdl/bit_c
+ounter_ip.vhd" in Library bit_counter_ip_v1_00_a.
+Entity <bit_counter_ip> compiled.
+Entity <bit_counter_ip> (Architecture <IMP>) compiled.
+
+
+Analyzing HDL attributes ...
+Entity name = bit_counter_ip
+INFO:EDK:1607 - IPTYPE set to value : PERIPHERAL
+INFO:EDK:1511 - IMP_NETLIST set to value : TRUE
+INFO:EDK:1486 - HDL set to value : VHDL
+WARNING:EDK:3590 - Unable to delete temporary project file
+   D:\study\prj_ZYNQ_PR\project_1\edk\pcores\bit_counter_ip.prj : 13
+INFO:EDK:1631 - Infer bus clock [S_AXI_ACLK] for bus interface S_AXI ...
+Copying file user_logic.vhd to
+D:\study\prj_ZYNQ_PR\project_1\edk\pcores/bit_counter_ip_v1_00_a/hdl/vhdl/ ...
+Copying file bit_counter_ip.vhd to
+D:\study\prj_ZYNQ_PR\project_1\edk\pcores/bit_counter_ip_v1_00_a/hdl/vhdl/ ...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+D:\study\prj_ZYNQ_PR\project_1\edk\pcores\bit_counter_ip_v1_00_a.
+
+Summary:
+
+  Logical library     : bit_counter_ip_v1_00_a
+  Version             : 1.00.a
+  Bus interface(s)    : S_AXI4LITE 
+
+The following sub-directories will be created:
+
+  - bit_counter_ip_v1_00_a\data
+  - bit_counter_ip_v1_00_a\hdl
+  - bit_counter_ip_v1_00_a\hdl\verilog
+  - bit_counter_ip_v1_00_a\hdl\vhdl
+  - bit_counter_ip_v1_00_a\netlist
+
+
+The following HDL source files will be copied into the
+bit_counter_ip_v1_00_a\hdl\vhdl directory:
+
+  - user_logic.vhd
+  - bit_counter_ip.vhd
+
+The following files will be created under the bit_counter_ip_v1_00_a\data
+directory:
+
+  - bit_counter_ip_v2_1_0.mpd
+  - bit_counter_ip_v2_1_0.pao
+
+  - bit_counter_ip_v2_1_0.bbd
+
+The following netlist file(s) will be copied into the
+bit_counter_ip_v1_00_a\netlist directory:
+
+  - prconfig.ngc
+
+

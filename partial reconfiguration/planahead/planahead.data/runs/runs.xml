@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="8">
+	<Run Id="countup" Type="Ft2:EntireDesign" SrcSet="sources_1" Part="xc7z020clg484-1" LaunchPart="xc7z020clg484-1" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" State="current" Dir="$PRUNDIR/countup" LaunchTime="1444896446">
+		<File Type="MAP-PSR" Name="countup.psr"/>
+		<File Type="PA-EDIF" Name="countup.edf"/>
+		<File Type="PAR-NCD" Name="countup_routed.ncd"/>
+		<File Type="PA-UCF" Name="countup.ucf"/>
+		<File Type="PAR-PAD" Name="countup_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="countup_routed.par"/>
+		<File Type="PAR-UNR" Name="countup_routed.unroutes"/>
+		<File Type="BG-BIT" Name="countup.bit"/>
+		<File Type="BG-DRC" Name="countup.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="countup.bgn"/>
+		<File Type="TRCE-TWR" Name="countup.twr"/>
+		<File Type="TRCE-TWX" Name="countup.twx"/>
+		<File Type="XDL-XDL" Name="countup_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/countup/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/countup/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/countup/countup.psg"/>
+		<File Type="NGDB-NGD" Name="countup.ngd"/>
+		<File Type="NGDB-BLD" Name="countup.bld"/>
+		<File Type="MAP-NCD" Name="countup.ncd"/>
+		<File Type="MAP-PCF" Name="countup.pcf"/>
+		<File Type="MAP-MRP" Name="countup.mrp"/>
+		<File Type="MAP-MAP" Name="countup.map"/>
+	</Run>
+	<Run Id="countdown" Type="Ft2:EntireDesign" SrcSet="sources_1" Part="xc7z020clg484-1" LaunchPart="xc7z020clg484-1" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" Dir="$PRUNDIR/countdown" LaunchTime="1444896775">
+		<File Type="MAP-PSR" Name="countdown.psr"/>
+		<File Type="PA-EDIF" Name="countdown.edf"/>
+		<File Type="PAR-NCD" Name="countdown_routed.ncd"/>
+		<File Type="PA-UCF" Name="countdown.ucf"/>
+		<File Type="PAR-PAD" Name="countdown_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="countdown_routed.par"/>
+		<File Type="PAR-UNR" Name="countdown_routed.unroutes"/>
+		<File Type="BG-BIT" Name="countdown.bit"/>
+		<File Type="BG-DRC" Name="countdown.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="countdown.bgn"/>
+		<File Type="TRCE-TWR" Name="countdown.twr"/>
+		<File Type="TRCE-TWX" Name="countdown.twx"/>
+		<File Type="XDL-XDL" Name="countdown_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/countdown/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/countdown/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/countdown/countdown.psg"/>
+		<File Type="NGDB-NGD" Name="countdown.ngd"/>
+		<File Type="NGDB-BLD" Name="countdown.bld"/>
+		<File Type="MAP-NCD" Name="countdown.ncd"/>
+		<File Type="MAP-PCF" Name="countdown.pcf"/>
+		<File Type="MAP-MRP" Name="countdown.mrp"/>
+		<File Type="MAP-MAP" Name="countdown.map"/>
+	</Run>
+</Runs>
+

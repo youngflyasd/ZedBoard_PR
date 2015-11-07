@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=D:\study\prj_ZYNQ_PR\project_1\planahead\planahead.runs\countup\countup_routed.ncd
+OUTFILE=D:\study\prj_ZYNQ_PR\project_1\planahead\planahead.runs\countup\countup.bit
+FAMILY=Zynq
+PART=xc7z020-1clg484
+WORKINGDIR=D:\study\prj_ZYNQ_PR\project_1\planahead\planahead.runs\countup
+LICENSE=WebPack
+USER_INFO=_

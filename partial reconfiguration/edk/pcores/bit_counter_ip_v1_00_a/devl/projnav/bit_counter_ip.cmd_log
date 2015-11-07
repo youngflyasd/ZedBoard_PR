@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/study/prj_ZYNQ_PR/project_1/edk/pcores/bit_counter_ip_v1_00_a/devl/projnav/bit_counter_ip.xst" -ofn "D:/study/prj_ZYNQ_PR/project_1/edk/pcores/bit_counter_ip_v1_00_a/devl/projnav/bit_counter_ip.syr" 

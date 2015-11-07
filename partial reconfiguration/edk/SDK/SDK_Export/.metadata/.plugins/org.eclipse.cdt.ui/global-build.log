@@ -1,0 +1,198 @@
+16:38:52 **** Build of project counter_bsp ****
+make -k all 
+libgen -hw ../count/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../count/system.xml -pe ps7_cortexa9_0 -log libgen.log
+system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling common"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling standalone"
+"Compiling gpio"
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling emacps"
+"Compiling gpiops"
+"Compiling qspips"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling ttcps"
+"Compiling uartps"
+"Compiling usbps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+16:39:37 **** Build of configuration Debug for project counter ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: counter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../counter_bsp/ps7_cortexa9_0/lib -o "counter.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: counter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size counter.elf  |tee "counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22872	   1096	  29780	  53748	   d1f4	counter.elf
+'Finished building: counter.elf.size'
+' '
+16:40:57 **** Auto Build of configuration Debug for project counter ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/sd_reader/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sd_reader/ff.d" -MT"src/sd_reader/ff.d" -o "src/sd_reader/ff.o" "../src/sd_reader/ff.c"
+'Finished building: ../src/sd_reader/ff.c'
+' '
+'Building file: ../src/sd_reader/mmc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sd_reader/mmc.d" -MT"src/sd_reader/mmc.d" -o "src/sd_reader/mmc.o" "../src/sd_reader/mmc.c"
+../src/sd_reader/mmc.c: In function 'init_port':
+../src/sd_reader/mmc.c:119:2: warning: implicit declaration of function 'Xil_Out8' [-Wimplicit-function-declaration]
+../src/sd_reader/mmc.c:122:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+../src/sd_reader/mmc.c:128:2: warning: implicit declaration of function 'Xil_In8' [-Wimplicit-function-declaration]
+../src/sd_reader/mmc.c:141:2: warning: implicit declaration of function 'Xil_Out16' [-Wimplicit-function-declaration]
+../src/sd_reader/mmc.c:143:3: warning: implicit declaration of function 'Xil_In16' [-Wimplicit-function-declaration]
+../src/sd_reader/mmc.c: In function 'send_cmd':
+../src/sd_reader/mmc.c:305:4: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+'Finished building: ../src/sd_reader/mmc.c'
+' '
+'Building target: counter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../counter_bsp/ps7_cortexa9_0/lib -o "counter.elf"  ./src/sd_reader/ff.o ./src/sd_reader/mmc.o  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: counter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size counter.elf  |tee "counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46372	   2176	  30548	  79096	  134f8	counter.elf
+'Finished building: counter.elf.size'
+' '
+16:41:41 **** Auto Build of configuration Debug for project counter ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:14: warning: implicit declaration of function 'primt' [-Wimplicit-function-declaration]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: counter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../counter_bsp/ps7_cortexa9_0/lib -o "counter.elf"  ./src/sd_reader/ff.o ./src/sd_reader/mmc.o  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+D:\study\prj_ZYNQ_PR\project_1\edk\SDK\SDK_Export\counter\Debug/../src/helloworld.c:70: undefined reference to `primt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [counter.elf] ´íÎó 1
+16:41:50 **** Auto Build of configuration Debug for project counter ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: counter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../counter_bsp/ps7_cortexa9_0/lib -o "counter.elf"  ./src/sd_reader/ff.o ./src/sd_reader/mmc.o  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: counter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size counter.elf  |tee "counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46412	   2176	  30548	  79136	  13520	counter.elf
+'Finished building: counter.elf.size'
+' '
+16:47:13 **** Incremental Build of configuration Debug for project counter ****
+make all 
+make: Nothing to be done for `all'.
+16:49:45 **** Incremental Build of configuration Debug for project counter ****
+make all 
+make: Nothing to be done for `all'.
+16:53:45 **** Auto Build of configuration Debug for project counter ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: counter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../counter_bsp/ps7_cortexa9_0/lib -o "counter.elf"  ./src/sd_reader/ff.o ./src/sd_reader/mmc.o  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: counter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size counter.elf  |tee "counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46412	   2176	  30548	  79136	  13520	counter.elf
+'Finished building: counter.elf.size'
+' '
+16:54:37 **** Incremental Build of configuration Debug for project counter ****
+make all 
+make: Nothing to be done for `all'.
+16:57:49 **** Incremental Build of configuration Debug for project counter ****
+make all 
+make: Nothing to be done for `all'.
+16:59:00 **** Auto Build of configuration Debug for project counter ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../counter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: counter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../counter_bsp/ps7_cortexa9_0/lib -o "counter.elf"  ./src/sd_reader/ff.o ./src/sd_reader/mmc.o  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: counter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size counter.elf  |tee "counter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46420	   2176	  30548	  79144	  13528	counter.elf
+'Finished building: counter.elf.size'
+' '
+16:59:19 **** Incremental Build of configuration Debug for project counter ****
+make all 
+make: Nothing to be done for `all'.
+17:00:20 **** Incremental Build of configuration Debug for project counter ****
+make all 
+make: Nothing to be done for `all'.
+17:00:55 **** Incremental Build of configuration Debug for project counter ****
+make all 
+make: Nothing to be done for `all'.
+17:01:51 **** Incremental Build of configuration Debug for project counter ****
+make all 
+make: Nothing to be done for `all'.

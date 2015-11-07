@@ -1,0 +1,10 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            10/15/2015 - 16:33
+SOURCE          ..\bitstream\bitcountdown.bin
+DEVICE          128K
+DATA_WIDTH      32
+FILL_DATA       0xFF
+START_ADDRESS   0x00000000 END_ADDRESS 0x0001A64F DIRECTION_UP   "planahead.runs/countdown/countdown_bit_counter_ip_0_bit_counter_ip_0_user_logic_i_prconfig_i_countdown_partial.bit" 7z020clg484

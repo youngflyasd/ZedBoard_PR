@@ -1,0 +1,9 @@
+##############################################################################
+## Filename:          D:\study\prj_ZYNQ_PR\project_1\edk\pcores/bit_counter_ip_v1_00_a/data/bit_counter_ip_v2_1_0.bbd
+## Description:       Black Box Definition
+## Date:              Thu Oct 15 15:19:33 2015 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+Files
+################################################################################
+prconfig.ngc

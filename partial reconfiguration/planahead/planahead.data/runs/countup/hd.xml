@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<PartialReconfig Version="1" Minor="8">
+	<Partitions>
+		<Partition Name="system" Reconfigurable="FALSE">
+			<Partition Name="bit_counter_ip_0/bit_counter_ip_0/USER_LOGIC_I/prconfig_i" CurrPRModule="countup" Reconfigurable="TRUE">
+				<PRModule Name="countup">
+				</PRModule>
+				<PRModule Name="countdown">
+				</PRModule>
+			</Partition>
+		</Partition>
+	</Partitions>
+	<Configs>
+		<Config Name="countup" State="INITIAL" RunType="Implementation">
+			<PRConfigInst PRInst="system" State="IMPLEMENT">
+			</PRConfigInst>
+			<PRConfigInst PRInst="bit_counter_ip_0/bit_counter_ip_0/USER_LOGIC_I/prconfig_i" PRModule="countup" State="IMPLEMENT">
+			</PRConfigInst>
+		</Config>
+	</Configs>
+</PartialReconfig>
+

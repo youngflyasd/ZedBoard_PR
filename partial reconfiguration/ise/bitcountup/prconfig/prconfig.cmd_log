@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/study/prj_ZYNQ_PR/project_1/ise/bitcountup/prconfig/prconfig.xst" -ofn "D:/study/prj_ZYNQ_PR/project_1/ise/bitcountup/prconfig/prconfig.syr" 
+xst -intstyle ise -ifn "D:/study/prj_ZYNQ_PR/project_1/ise/bitcountup/prconfig/prconfig.xst" -ofn "D:/study/prj_ZYNQ_PR/project_1/ise/bitcountup/prconfig/prconfig.syr" 
